@@ -1,0 +1,45 @@
+body {
+  font-family: monospace;
+}
+
+#boggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameboard {
+  border: solid 1px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.addword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 4px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.msg {
+  padding: 1em;
+}
+
+.msg.ok {
+  color: white;
+  background-color: green;
+}
+
+.msg.err {
+  color: white;
+  background-color: tomato;
+}
